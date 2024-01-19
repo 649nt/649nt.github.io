@@ -1,0 +1,128 @@
+/* CSS Document */
+
+   /* 作者：筱健  初学html
+    源码分享QQ群：1026574662
+    欢迎进来互相学习和交流
+    请保留版权，尊重作者的努力！
+*/
+h1 {
+	font-size: 40px;
+	color: #fefefe;
+	text-shadow: 0 0 0.5em #19c7e5, 0 0 0.2em #5c5c5c;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+			content: "";
+			display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+}
+.clearfix{
+			*zoom: 1;
+}
+body{
+	background: url(../img/bg.png) no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.content{
+	width: 900px;
+	height: 500px;
+	margin: 200px auto 0 auto;
+	border-radius: 10px;
+	background-color: rgba(236,236,236,0.59);
+	backdrop-filter: blur(10px);
+	transition: all 1.0s;
+}
+
+.content img{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 150px 0 0 80px;
+	border-radius: 100px;
+	
+}
+.content:hover{
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.52);
+}
+.content_r{
+	float: right;
+	width: 500px;
+	margin: 80px 60px 0  0;
+/*	background-color: pink;*/
+}
+.content_l{
+	float: left;
+	width: 100%;
+	text-align: center;	
+}
+.content_l h5{
+	
+	font-size: 17px;
+}
+.cc{
+	margin-top: 10px;
+	color: #1F2023;
+	font-size: 18px;
+}
+.color_1{
+	color: #4855EC;
+	font-size: 18px;
+}
+.deeppink{
+	color: deeppink;
+}
+.link{
+	margin-top: 30px;
+}
+.link a{
+	display: inline-block;
+	float: none;
+	width: 150px;
+	height: 45px;
+	margin: 5px 5px 0 0;
+	padding: 10px 15px;
+	color: #000000;
+	line-height: 45px;
+	text-align: center;
+	background-color: #ffffff20;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+	font-size: 22px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.link a:hover{
+	background-color: rgba(0, 255, 232, 0.14);
+	color: #ffffff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	transform: scale(1.1);
+}
+
+.deeppink_1{
+	background-color: deeppink;
+}
+.dodgerblue{
+	background-color: dodgerblue;
+}
+.magenta{
+	background-color: magenta;
+}
+.orange{
+	background-color: orange;
+}
+ /* 作者：筱健  初学html
+    源码分享QQ群：1026574662
+    欢迎进来互相学习和交流
+    请保留版权，尊重作者的努力！
+*/
